@@ -117,7 +117,7 @@ const UserContactsPage = () => {
             </AppButton>
             {user.contacts!==undefined && user.contacts?.length >=6 
                 ?   <div className={cl.userContactsPage__searchAndSortWrapper}>
-                        <h2 style={{textAlign:"center"}}>Don't want to scroll, - find it!</h2>
+                        <h2 style={{textAlign:"center"}}>Don't want to scroll - find it!</h2>
                         <label>Choose where to search
                             <AppSelect 
                                 options={[{name: 'name', value: 'name'},{name: 'number', value: 'number'}]}

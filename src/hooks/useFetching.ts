@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export function useFetching(callback:()=>void):[()=>void, boolean, string]  {
+export function useFetching(callback:(n?:any)=>any):[(n?:any)=>any, boolean, string]  {
     const [isLoading, setIsLoading] = useState<boolean>(true);
     const [error, setError] = useState<string>('')
 

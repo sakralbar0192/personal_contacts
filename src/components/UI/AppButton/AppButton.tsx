@@ -3,7 +3,7 @@ import cl from './appButton.module.scss'
 
 interface IButtonProps {     
     type: any
-    onClick?: ()=>void
+    onClick?: (e:React.MouseEvent<HTMLButtonElement>)=>void
     children: ReactChild | ReactNode    
 }
 
