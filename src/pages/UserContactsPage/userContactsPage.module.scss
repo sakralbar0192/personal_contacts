@@ -1,0 +1,48 @@
+.userContactsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;   
+    width: 100%; 
+}
+
+.userContactsPage__listWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+
+    ul {
+        margin: 30px 0 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+    }
+
+    li {
+        margin: 20px;
+    }
+    
+}
+
+.userContactsPage__searchAndSortWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #000000;
+
+    label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 10px;
+    }
+
+    select {
+        width: 100%;
+        margin: 10px 0 0;
+    }
+}

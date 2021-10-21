@@ -1,0 +1,42 @@
+.contactItem {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #06266F;
+    background-color: #39E639;
+
+    button {
+        margin: 5px;
+        background-color: inherit;
+        border: 0;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+.contactItem__innerWrapper {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    margin: 0 0 10px;
+    cursor: pointer;
+
+    h3, p {
+        margin: 0 0 10px;
+        max-width: 300px;
+        text-align: center;
+    }
+
+    &:hover {
+        background-color: #06266F;
+    }
+}

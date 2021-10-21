@@ -1,0 +1,21 @@
+.appButton {
+    min-width: 200px;
+    padding: 10px;
+    background-color: #39E639;
+    border: 1px solid #06266F;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #06266F;
+        color: white;
+    } 
+
+    * {
+        text-decoration: inherit;
+        color: inherit
+    }
+}
